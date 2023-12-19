@@ -1,8 +1,11 @@
 import './App.css';
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
-    <><h1>Hello From App</h1></>
+    <>
+      <Navbar />
+    </>
   );
 }
 
