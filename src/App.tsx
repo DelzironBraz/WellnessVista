@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import About from './pages/About';
 import Home from './pages/Home';
+import Services from './pages/Services';
 
 const App = () => {
   return (
@@ -12,6 +13,9 @@ const App = () => {
       </div>
       <div id='about'>
         <About />
+      </div>
+      <div id='services'>
+        <Services />
       </div>
     </>
   );
