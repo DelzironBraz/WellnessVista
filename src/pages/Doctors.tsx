@@ -1,6 +1,6 @@
 import Slider from "react-slick";
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
-import { DoctorsData } from "../utils/Doctors";
+import { DoctorsData } from "../utils/doctorsData";
 import { useRef } from "react";
 
 const Doctors = () => {
