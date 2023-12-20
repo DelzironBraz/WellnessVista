@@ -5,6 +5,7 @@ import blog2 from '../assets/images/blog2.jpg';
 import blog3 from '../assets/images/blog3.jpg';
 import blog4 from '../assets/images/blog4.jpg';
 import blog5 from '../assets/images/blog5.jpg';
+import blog6 from '../assets/images/blog6.jpg';
 
 export const PostsData: Post[] = [
     {
@@ -31,5 +32,10 @@ export const PostsData: Post[] = [
         id: 5,
         img: blog5,
         headline: "Science Behind a Balanced Diet",
+    },
+    {
+        id: 6,
+        img: blog6,
+        headline: "Exploring New Solutions to Live Foverer",
     },
 ];
