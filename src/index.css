@@ -17,3 +17,7 @@ body * {
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
 }
+
+.slick-slide > div {
+  margin: 0 10px;
+}
