@@ -1,7 +1,7 @@
 import { AiOutlineClose } from "react-icons/ai";
 import Button from "./Button";
 
-const Contact = ({ closeForm }) => {
+const ContactModal = ({ closeForm }) => {
     return (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
             <div className="popup-form absolute mt-12 text-black">
@@ -57,4 +57,4 @@ const Contact = ({ closeForm }) => {
     );
 }
 
-export default Contact;
+export default ContactModal;
