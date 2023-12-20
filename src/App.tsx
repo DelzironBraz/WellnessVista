@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import About from './pages/About';
 import Blog from './pages/Blog';
@@ -30,6 +31,8 @@ const App = () => {
       <div id='blog'>
         <Blog />
       </div>
+
+      <Footer />
     </main>
   );
 }
